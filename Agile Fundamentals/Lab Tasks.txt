@@ -1,0 +1,3 @@
+Task 1 ) write 5 services e-commerce + test case (validation)
+ 
+Task 2 : what are clean code principals ( 5 )+ code refactoring
