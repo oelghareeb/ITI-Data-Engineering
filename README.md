@@ -1,7 +1,5 @@
-<p align="center">
-  <strong><span style="font-size:2em;">ITI-Data-Engineering</span></strong><br>
-  <strong><span style="font-size:1.5em;">ITI Intensive Code Camp – (Data Engineer) Track</span></strong>
-</p>
+<h1 align="center">ITI-Data-Engineering</h1>
+<h3 align="center">ITI Intensive Code Camp – (Data Engineer) Track</h3>
 
 <p align="center">
   <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
@@ -12,6 +10,7 @@
 </p>
 
 <br>
+
   
 ## 🏆 OVERALL LEARNING JOURNEY OUTLINE
 
