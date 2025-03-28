@@ -1,8 +1,15 @@
-# &emsp;&emsp;&emsp;&emsp;ITI-Data-Engineering
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <b>*ITI Intensive Code Camp – (Data Engineer) Track*</b>
-<p align="center"> <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%"> </p> <p align="center">
-  
-A collection of every single lecture, lab, task, project, and resource taken in this internship.
+<p align="center">
+  <strong><span style="font-size:2em;">ITI-Data-Engineering</span></strong><br>
+  <strong><span style="font-size:1.5em;">ITI Intensive Code Camp – (Data Engineer) Track</span></strong>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+</p>
+
+<p align="center">
+  A collection of every single lecture, lab, task, project, and resource taken in this internship.
+</p>
 
 <br>
   
