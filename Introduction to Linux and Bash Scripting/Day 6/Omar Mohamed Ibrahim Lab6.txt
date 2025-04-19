@@ -1,0 +1,104 @@
+1- Greeting script
+---------------------------------------------
+#!/bin/bash
+
+echo "What is Your name?"
+read name
+echo "Welcome $name to our Linux Course"
+---------------------------------------------
+
+
+2- mycd script
+---------------------------------------------
+#!/bin/bash
+
+if [[ -z "$1" ]]
+then
+       cd ~
+else
+        if [[ -d "$1" ]]
+        then
+                cd "$1"
+        else
+                echo "$1 Not an existing Directory....back to home dir."
+                cd ~
+        fi
+fi
+---------------------------------------------
+
+
+3- myls script
+---------------------------------------------
+#!/bin/bash
+
+if [[ -z "$1" ]]
+then
+    ls .
+else
+    if [[ -d "$1" ]]
+    then
+    ls "$1"
+else
+        echo "No such directory named '$1'".
+    fi
+fi
+---------------------------------------------
+
+
+4- myls_enhance script
+---------------------------------------------
+#!/bin/bash
+
+if [[ -z "$2" ]]
+then
+        case "$1" in
+                -l)
+                        ls -l .
+                        ;;
+                -a)
+                        ls -a .
+                        ;;
+                -d)
+                        ls -d .
+                        ;;
+                -i)
+                        ls -i .
+                        ;;
+                -R)
+                        ls -R .
+                        ;;
+                "")
+                        ls .
+                        ;;
+                *)
+                        echo 'Invalid flag or missing directory'
+                        ;;
+        esac
+else
+        if [[ -d "$2" ]]
+        then
+        case "$1" in
+                -l)
+                        ls -l "$2"
+                        ;;
+                -a)
+                        ls -a "$2"
+                        ;;
+                -d)
+                        ls -d "$2"
+                        ;;
+                -i)
+                        ls -i "$2"
+                        ;;
+                -R)
+                        ls -R "$2"
+                        ;;
+                *)
+                        echo "Invalid flag: '$1'"
+                        ;;
+                esac
+        else
+                echo "Directory '$2' does not exist"
+        fi
+fi
+---------------------------------------------

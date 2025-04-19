@@ -1,0 +1,20 @@
+# Ignore directories and files you don't want
+LICENSE
+Python Programming Language/
+README.md
+Soft Skills/
+Workshops/
+
+# Ignore all .docs, .doc, .docx files in the repository
+*.doc
+*.docs
+*.docx
+*.mp4
+*.wmv
+
+# Ignore all Recordings/ directories and their contents recursively, anywhere in the repository
+**/Recordings/
+
+# Ignore all .mp4 and .wmv files, recursively anywhere in the repository
+*.mp4
+*.wmv
